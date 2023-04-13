@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 app.put('/', (req, res) => {
     const headers = {
         'Content-Type': req.header('Content-Type'),
-        'Authorization': 'Bearer 00DDn00000CWx9u!AQ4AQO5AhW0bE9Y.gINpVSKInKzuz_yv83rXQ2avozZSgfX71y1wrivxiWQ9csRZ7T.x3L0SoWb32veNUUoIIksDxALh07xW'
+        'Authorization': 'Bearer '
 
     }
     console.log(req.body);
